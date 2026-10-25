@@ -1,0 +1,16 @@
+name: SupaHide
+version: 1.0.0
+main: com.supahide.SupaHide
+api-version: '1.21'
+description: Toggle a scrambled nametag and disguise skin.
+author: univer404
+softdepend: [TAB, SkinsRestorer]
+commands:
+  hide:
+    description: Toggle your scrambled username disguise.
+    usage: /hide
+    permission: hide.use
+permissions:
+  hide.use:
+    description: Allows a player to toggle SupaHide.
+    default: op
