@@ -1,0 +1,13 @@
+# SupaHide settings
+# Requires compatible plugins that provide the configured console commands:
+# TAB for the nametag prefix command and a skin plugin for /setskin.
+commands:
+  scramble-tag: 'tab player {player} tagprefix &k'
+  restore-tag: 'tab player {player} tagprefix'
+  disguise-skin: 'setskin {player} Sinsify'
+  restore-skin: 'setskin {player} {player}'
+
+messages:
+  no-permission: '<red>You don''t have permission to use this.</red>'
+  scrambled: '<#A8A8A8>You scrambled your username.'
+  unscrambled: '<#A8A8A8>You unscrambled your username.'
